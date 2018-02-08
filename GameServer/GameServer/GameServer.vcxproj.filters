@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="room">
+      <UniqueIdentifier>{d82574ad-fc77-4e41-b9ea-f75a71ad2d03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameServer">
+      <UniqueIdentifier>{5a206623-9e04-4ae7-8f99-50c49bb14433}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GateServer">
+      <UniqueIdentifier>{26fde5c5-8fe9-4ffa-b8af-015fe95b3797}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MineCraft">
+      <UniqueIdentifier>{a29ee030-feda-4bed-bceb-8031ddd81aee}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GamesServer.cpp">
+      <Filter>GameServer</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientAcceptor.cpp">
+      <Filter>GameServer</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientSsesion.cpp">
+      <Filter>GameServer</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GateServer.cpp">
+      <Filter>GateServer</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSession.cpp">
+      <Filter>GateServer</Filter>
+    </ClCompile>
+    <ClCompile Include="RoomManager.cpp">
+      <Filter>room</Filter>
+    </ClCompile>
+    <ClCompile Include="Room.cpp">
+      <Filter>room</Filter>
+    </ClCompile>
+    <ClCompile Include="NetPlayer.cpp">
+      <Filter>room</Filter>
+    </ClCompile>
+    <ClCompile Include="NetPlayerManager.cpp">
+      <Filter>room</Filter>
+    </ClCompile>
+    <ClCompile Include="mineCraft.cpp">
+      <Filter>MineCraft</Filter>
+    </ClCompile>
+    <ClCompile Include="cRTTI.cpp">
+      <Filter>MineCraft</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GamesServer.h">
+      <Filter>GameServer</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientAcceptor.h">
+      <Filter>GameServer</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientSsesion.h">
+      <Filter>GameServer</Filter>
+    </ClInclude>
+    <ClInclude Include="GateServer.h">
+      <Filter>GateServer</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSession.h">
+      <Filter>GateServer</Filter>
+    </ClInclude>
+    <ClInclude Include="RoomManager.h">
+      <Filter>room</Filter>
+    </ClInclude>
+    <ClInclude Include="Sington.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Room.h">
+      <Filter>room</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="NetPlayer.h">
+      <Filter>room</Filter>
+    </ClInclude>
+    <ClInclude Include="IDgenerator.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NetPlayerManager.h">
+      <Filter>room</Filter>
+    </ClInclude>
+    <ClInclude Include="MacroInclude.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mineCraft.h">
+      <Filter>MineCraft</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GameServer.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
